@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Covid-19 Venezuela es una iniciativa donde se publican datos reales y verificados sobre los casos de covid-19 en Venezuela, mantente al tanto de la situación accediendo a nuestra página.">
+    <meta name="author" content="Andres Argote"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icono-pagina.001.ico">
+    <title>COVID-19 Venezuela</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="header-menu">
+                <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Invítanos un café', '#ffae00', 'Y8Y41PMQ4');kofiwidget2.draw();</script> 
+                <ul>
+                    <li><a href="#">Información</a></li>
+                </ul>
+            </nav>
+            <div class="header-logo">
+                <h1>COVID-19</h1>
+                <p>Seguidor de casos de venezuela</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="contenedor-informacion">
+                <div class="contenedor-informacion-principal">
+                    <div class="card-info positivos">
+                        <img src="img/nature.svg" alt="Total infectados">
+                        <div class="informacion">
+                            <p id="positivos">0</p>
+                            <h2>Casos Positivos</h2>
+                        </div>
+                    </div>
+                    <div class="card-info activos">
+                        <img src="img/bacteria.svg" alt="Total activos">
+                        <div class="informacion">
+                            <p id="activos">0</p>
+                            <h2>Casos Activos</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-secundario">
+                    <div class="card recuperados">
+                        <img src="img/love-and-romance.png" alt="Recuperados">
+                        <div class="informacion">
+                            <p id="recuperados">0</p>
+                            <h2>Casos Recuperados</h2>
+                        </div>
+                    </div>
+                    <div class="card fallecidos">
+                        <img src="img/halloween.svg" alt="Recuperados">
+                        <div class="informacion">
+                            <p id="fallecidos">0</p>
+                            <h2>Fallecidos</h2>
+                        </div>
+                    </div>
+                    <div class="card sexo">
+                        <img src="img/signs.svg" alt="Casos por sexo">
+                        <div class="informacion">
+                            <div class="genero">
+                                <p id="mujeres"></p>
+                                <p id="hombres"></p>
+                            </div>
+                            <h2>Casos por sexo</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="listas">
+                    <div class="card-2 casos-por-estado">
+                        <h3>Casos por estado</h3>
+                        <ul id="contenedor-lista">
+                            
+                        </ul>
+                    </div>
+                    <div class="card-2 casos-por-estado edad">
+                        <h3>Casos por edad</h3>
+                        <ul id="lista-edad">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="paises">
+        <div class="contenedor">
+            <div class="contenedor-5-paises">
+                <h3>Top 5 países más afectados</h3>
+                <div class="casos-por-estado" id="casos-por-pais">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="noticias">
+        <div class="contenedor">
+            <div class="contenedor-articulos">
+                <h2>Recomendaciones:</h2>
+                <article class="articulo">
+                    <h4><a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="blank">Orientación sobre el Covid-19 🦠</a></h4>
+                </article>
+                <article class="articulo">
+                    <h4><a href="https://www.bbc.com/mundo/noticias-52192632" target="blank">¿Cómo hacer una mascarilla de tela? 😷</a></h4>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <p class="datos" id="datos"></p>
+            <p>Creada por Andres Argote con mucho ♥️</p>
+            <a href="https://www.flaticon.com/" target="blank">Gracias Flaticon por lo iconos</a>
+        </div>
+    </footer>
+    <script src="appmin.js"></script>
+</body>
+</html>

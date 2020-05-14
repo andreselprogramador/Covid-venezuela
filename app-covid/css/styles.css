@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    background-color: #E9EBEE;
+}
+
+.contenedor{
+    max-width: 1000px;
+    padding: 10px 8px;
+    margin: 0 auto;
+    /*background-color: aqua;*/
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu ul li{
+    list-style: none;
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.header-menu ul li a:hover{
+    color: tomato;
+}
+
+.header-logo{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 28px;
+}
+
+.header-logo p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contenedor-informacion{
+    /*background-color: thistle;*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-informacion-principal{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contenedor-informacion-principal .card-info{
+    width: 45%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.contenedor-informacion-principal .card-info img{
+    width: 80px;
+}
+
+.contenedor-informacion-principal .positivos{
+    background-color: #ffbd4c;
+}
+
+
+.contenedor-informacion-principal .activos{
+    background-color: #4CB5FF;
+}
+
+.contenedor-informacion-principal .card-info .informacion p{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.contenedor-informacion-principal .card-info .informacion h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-secundario{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-secundario .card{
+    width: 30%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    margin-bottom: 30px;
+}
+
+.card-secundario .recuperados{
+    background-color: #4CD97B;
+}
+
+.card-secundario .fallecidos{
+    background-color: #FF5959;
+}
+
+.card-secundario .sexo{ 
+    background-color: #8359FF;
+}
+
+.card-secundario .card img{
+    width: 80px;
+}
+
+.card-secundario .card .informacion p{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card-secundario .card .informacion h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-secundario .card .informacion .genero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-secundario .card .informacion .genero p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-secundario .card .informacion .genero p span{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.listas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.listas .card-2{
+    width: 45%;
+    height: 200px;
+    overflow: scroll;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.listas .card-2 h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.listas .card-2 ul li{
+    list-style: none;
+    line-height: 2;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.listas .card-2 ul li span{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contenedor-5-paises{
+    width: 100%;   
+}
+
+.contenedor-5-paises h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.pais{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 12px 5px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.pais .nombre h4{
+    font-weight: 300;
+    font-size: 22px;
+    margin-right: 11px;
+}
+
+.pais .todos{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.pais .infectados p{
+    color: #ffbd4c;
+}
+
+.pais .activos p{
+    color: #4CB5FF;
+}
+
+.pais .recuperados p{
+    color: #4CD97B;
+}
+
+.pais .fallecidos p{
+    color: #FF5959;
+}
+
+.pais span{
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+}
+
+.contenedor-articulos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-articulos h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.contenedor-articulos .articulo{
+    padding: 20px 5px;
+    margin-bottom: 20px;
+    background-color: #8D55E5;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+}
+.contenedor-articulos .articulo h4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .datos{
+    font-size: 14px;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.35);
+
+}
+
+footer p{
+    font-size: 16px;
+}
+
+footer  a{
+    font-size: 14px;
+    color: #4CD97B;
+}
+
+@media only screen and (max-width: 575px) {
+    .card-secundario .card{
+        width: 100%;
+    }
+    .listas .card-2{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .pais .todos span{
+        font-size: 12px;
+    }
+
+  }
+
+
+@media only screen and (max-width: 380px) {
+    .pais{
+        flex-direction: column;
+    }
+
+  }
